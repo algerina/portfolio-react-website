@@ -42,10 +42,10 @@ header {
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  width: 10rem;
   height: 30rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 5rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;

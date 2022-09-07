@@ -23,4 +23,7 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav a
+nav a:hover {
+  background:rgba(0, 0, 0, 0.3);
+}
+

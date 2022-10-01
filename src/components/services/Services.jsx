@@ -36,8 +36,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        {/* End of UI/UX section */}
-      </div>
+        </div>
     </section>
   )
 }

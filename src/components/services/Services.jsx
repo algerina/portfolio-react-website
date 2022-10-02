@@ -36,6 +36,66 @@ const Services = () => {
             </li>
           </ul>
         </article>
+
+      {/* End of UI/UX */}
+
+      <article className="service">
+          <div className="service__head">
+            <h3>Web Development</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+          </ul>
+        </article>
+{/* End of web dev */}
+
+<article className="service">
+          <div className="service__head">
+            <h3>Content Creation</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trg</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+            <li>
+              <BiCheck  className="service__list-icon" />
+               <p>Lorem ipsum trguii kjkjkh jhjhjh</p>
+            </li>
+          </ul>
+        </article>
+{/* End of content creation */}
         </div>
     </section>
   )

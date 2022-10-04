@@ -47,7 +47,7 @@ const Testimonials = () => {
       modules={[Pagination]}
       spaceBetween={40}
       slidesPerView={1}
-      Pagination={{ clickable;true }}
+      Pagination={{ clickable: true }}
 
       >
         { 

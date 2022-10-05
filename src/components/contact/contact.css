@@ -1,7 +1,7 @@
 .container.contact__container {
   display: grid;
   width: 58%;
-  grid-template-columns: 30% 58%;
+  grid-template-columns: 28% 58%;
   gap: 12%;
 }
 
@@ -44,3 +44,34 @@ form {
   flex-direction: column;
   gap: 1.2rem;
 }
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
+}
+
+
+/*=======Media Queries for Medium devices========*/
+
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+ }
+
+ /*=======Media Queries for Medium devices========*/
+
+ @media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+
+
+   }

@@ -26,6 +26,8 @@ const Contact = () => {
         {/* End of contact options */}
         <form action="">
           <input type="text" name="name" placeholder="Your Full Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="7" placeholder="Your Message" required ></textarea>
         </form>
       </div>
     </section>

@@ -9,7 +9,7 @@ const Experience = () => {
       <h2>My Experience</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Technical Skills</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
@@ -37,48 +37,108 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
-
               <div>
-                <h4>Tailwind</h4>
+                <h4>Ruby on Rails</h4>
               </div>
             </article>
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Postgresql</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>MySql</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Jest</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Capybara</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon"/>
+            <div>
+              <h4>Devise-jwt</h4>
+            </div>
+          </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
                 <h4>React</h4>
               </div>
             </article>
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>NodeJs</h4>
+              </div>
+            </article>
           </div>
         </div>
         {/* End of Frontend */}
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Professional Skills</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
 
               <div>
-                <h4>NodeJs</h4>
+                <h4>Remote Programing</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
 
               <div>
-                <h4>Ruby on Rails</h4>
+                <h4>Pair Programming</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>MySQL</h4>
+                <h4>Communication</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
 
               <div>
-                <h4>Postgresql</h4>
+                <h4>Problem Solving</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+
+              <div>
+                <h4>Team Management</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Flexibility</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Time Management</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Mentoring</h4>
               </div>
             </article>
           </div>

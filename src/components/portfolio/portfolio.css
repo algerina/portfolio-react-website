@@ -20,6 +20,16 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow:hidden;
+  /* max-width: 50%;
+  object-fit: cover; */
+}
+
+.portfolio__item-list {
+  display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    gap: 1rem;
+    list-style: none;
 }
 
 .portfolio__item h3 {

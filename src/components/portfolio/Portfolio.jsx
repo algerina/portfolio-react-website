@@ -7,8 +7,8 @@ import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
 import IMG7 from '../../assets/portfolio7.png'
-import IMG8 from '../../assets/portfolio6.png'
-import IMG9 from '../../assets/portfolio6.png'
+import IMG8 from '../../assets/portfolio8.png'
+import IMG9 from '../../assets/portfolio9.png'
 
 
 const data = [
@@ -70,19 +70,19 @@ const data = [
   },
   {
     id:8,
-    image: IMG1,
-    title: "Project1",
-    technologies: ["RoR", "React", "Devise jwt", "Rspec", "Postgresql"],
-    github: "http://github.com",
-    demo: "https://dribbble.com/Alien_pixels"
+    image: IMG8,
+    title: "Awesome Books",
+    technologies: ["Technologies: JavaScript, HTML, CSS"],
+    github: "https://github.com/algerina/Awesome-books",
+    demo: "https://amelbooks.netlify.app/"
   },
   {
     id:9,
-    image: IMG1,
-    title: "Project1",
-    technologies: ["RoR", "React", "Devise jwt", "Rspec", "Postgresql"],
-    github: "http://github.com",
-    demo: "https://dribbble.com/Alien_pixels"
+    image: IMG9,
+    title: "My TO DO List",
+    technologies: ["Technologies: JavaScript, HTML,CSS,Webpack"],
+    github: "https://github.com/algerina/My-To-do-list",
+    demo: "https://algerina.github.io/My-To-do-list/dist/"
   }
 
 ]

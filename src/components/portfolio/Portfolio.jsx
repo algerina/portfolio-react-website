@@ -2,10 +2,14 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/portfolio7.png'
+import IMG8 from '../../assets/portfolio6.png'
+import IMG9 from '../../assets/portfolio6.png'
+
 
 const data = [
   {
@@ -27,42 +31,42 @@ const data = [
   {
     id:3,
     image: IMG3,
-    title: "Project1",
-    technologies: ["RoR", "React", "Devise jwt", "Postgresql"],
-    github: "http://github.com",
-    demo: "https://dribbble.com/Alien_pixels"
+    title: "Kyram Recipes",
+    technologies: ["Technologies: RoR, Devise, Postgresql, Gitflow, Capybara, Rspec, Bootstrap"],
+    github: "https://github.com/algerina/recipe-app",
+    demo: "https://kyramrecipes.herokuapp.com/users/sign_in"
   },
   {
     id:4,
     image: IMG4,
-    title: "Project1",
-    technologies: ["RoR", "React", "Devise jwt", "Postgresql"],
-    github: "http://github.com",
-    demo: "https://dribbble.com/Alien_pixels"
+    title: "Space Travelers Hub",
+    technologies: ["Technologies: React, Redux, Css, API"],
+    github: "https://github.com/algerina/space-travelers-hub",
+    demo: "https://gifted-mcclintock-212dd1.netlify.app/"
   },
   {
     id:5,
     image: IMG5,
-    title: "Project1",
-    technologies: ["RoR", "React", "Devise jwt", "Postgresql"],
-    github: "http://github.com",
-    demo: "https://dribbble.com/Alien_pixels"
+    title: "TvMaze",
+    technologies: ["Technologies: JavaScript, Html, Css, API, Webpack"],
+    github: "https://github.com/algerina/Group-Capstone-",
+    demo: "https://mutinhiri.github.io/Group-Capstone-/dist/"
   },
   {
     id:6,
     image: IMG6,
-    title: "Project1",
-    technologies: ["RoR", "React", "Devise jwt", "Postgresql"],
-    github: "http://github.com",
-    demo: "https://dribbble.com/Alien_pixels"
+    title: "Mobile World Congress 2021",
+    technologies: ["Technologies: JavaScript, Html, Css"],
+    github: "https://github.com/algerina/Capstone1",
+    demo: "https://rawcdn.githack.com/algerina/Capstone1/7cebc30ff90cfef9437b1af73ec6f73c73f79ff9/index.html"
   },
   {
     id:7,
-    image: IMG1,
-    title: "Project1",
-    technologies: ["RoR", "React", "Devise jwt", "Rspec", "Postgresql"],
-    github: "http://github.com",
-    demo: "https://dribbble.com/Alien_pixels"
+    image: IMG7,
+    title: "Leaderbord",
+    technologies: ["Technologies: ES6, Webpack, HTML, CSS, API"],
+    github: "https://github.com/algerina/Leaderboard",
+    demo: "https://algerina.github.io/Leaderboard/dist/"
   },
   {
     id:8,

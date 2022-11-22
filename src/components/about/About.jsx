@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/me-about.jpg";
+import Me from "../../assets/me.gif";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -37,12 +37,7 @@ const About = () => {
             </article>
           </div> */}
           <p>
-            Lorem Ipsum is simply dummy text of the printing and types etting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially
+          I’m Amel, a full-stack web developer, a polyglot Mechanical engineer.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

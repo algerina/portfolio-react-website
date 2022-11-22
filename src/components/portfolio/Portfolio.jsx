@@ -23,10 +23,10 @@ const data = [
   {
     id:2,
     image: IMG2,
-    title: "Wallet",
-    technologies: ["Technologies RoR, Capybara, Rspec, Bootstrap, Devise"],
-    github: "https://github.com/algerina/yourWallet",
-    demo: "https://shrouded-dusk-01690.herokuapp.com/"
+    title: "My Portfolio",
+    technologies: ["Technologies: React, CSS                                                   "],
+    github: "https://github.com/algerina/portfolio-react-website",
+    demo: ""
   },
   {
     id:3,

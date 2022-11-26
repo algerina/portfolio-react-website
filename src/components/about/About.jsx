@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div> */}
           <p>
-          I’m Amel, a full-stack web developer, a polyglot Mechanical engineer.
+           Hey I’m Amel! a full-stack web developer and a polyglot Mechanical engineer. I can help you build a product, feature or a website! If you like my work and have a project you need coded, don’t hestiate to contact me.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

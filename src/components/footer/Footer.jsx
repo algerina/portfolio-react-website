@@ -21,13 +21,7 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
           <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -35,19 +29,16 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="http://facebook.com">
-          <FaFacebookF />
-        </a>
-        <a href="http://instagram.com">
+        <a href="https://www.instagram.com/qahwadji/">
           <FiInstagram />
         </a>
-        <a href="http://twitter.com">
+        <a href="https://twitter.com/AmalQahwadji">
           <FiTwitter />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Algerina. All rights reserved.</small>
+        <small>&copy; Algerina All rights reserved.</small>
       </div>
     </footer>
   );

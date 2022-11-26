@@ -38,8 +38,17 @@ header {
   background: var(--color-primary);
 }
 
-/*============Me=============*/
+.me {
+  /* width: 22rem; */
+  height: 50%;
+  align-items: center;
+  margin-left:  33%;
+  margin-right:  33%;
+  margin-top: 2rem;
+}
 
+/*============Me=============*/
+/* 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   width: 18rem;
@@ -50,7 +59,7 @@ header {
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
+} */
 
 /*=========Scroll Down========*/
 
@@ -69,7 +78,8 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    /* height: 68vh; */
+    height: auto;
   }
 }
 
@@ -77,7 +87,8 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
   }
 
   .header_socials,

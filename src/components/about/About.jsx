@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/me-about.jpg";
+import Me from "../../assets/me.gif";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -17,7 +17,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
@@ -35,14 +35,9 @@ const About = () => {
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
             </article>
-          </div>
+          </div> */}
           <p>
-            Lorem Ipsum is simply dummy text of the printing and types etting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially
+           Hey I’m Amel! a full-stack web developer and a polyglot Mechanical engineer. I can help you build a product, feature or a website! If you like my work and have a project you need coded, don’t hestiate to contact me.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

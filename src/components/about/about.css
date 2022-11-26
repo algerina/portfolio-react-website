@@ -9,7 +9,7 @@
   aspect-ratio: 1/1;
   border-radius: rem;
   background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-  display: grid;
+  /* display: grid; */
   place-items: center;
   border-radius: 2rem;
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";  /* eslint-disable */
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 

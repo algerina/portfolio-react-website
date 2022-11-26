@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'  /* eslint-disable */
 import './header.css'
 import CTA from './CTA'
 import Me from '../../assets/intro2.gif'

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'  /* eslint-disable */
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'

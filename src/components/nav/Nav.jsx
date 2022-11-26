@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'  /* eslint-disable */
 import './nav.css'
 import { AiOutlineHome } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'

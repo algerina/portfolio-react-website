@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react'  /* eslint-disable */
 import {BsLinkedin, BsGithub, BsMedium, BsTwitter} from 'react-icons/bs'
 import {AiFillMediumSquare} from 'react-icons/ai'
 

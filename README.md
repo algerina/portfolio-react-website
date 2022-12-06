@@ -1,8 +1,7 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 ![](https://img.shields.io/static/v1?label=BY&message=Algerina&color=pink)
 
 
-# My React Portfolio
+# My Ultimate React Portfolio
 
 <hr>
 
@@ -17,7 +16,7 @@
 ## Built With
 
 Front-end
-- [react](https://reactjs.org/) 
+- [React](https://reactjs.org/) 
 
 ## Live demo
 

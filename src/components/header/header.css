@@ -1,0 +1,99 @@
+header {
+  height: 100vh;
+  /* padding-top: 7rem; */
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/*==============Call To Action=========*/
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/*===========Socials============*/
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position:absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.me {
+  /* width: 22rem; */
+  height: 50%;
+  align-items: center;
+  margin-left:  33%;
+  margin-right:  33%;
+  margin-top: 2rem;
+}
+
+/*============Me=============*/
+/* 
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 18rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 10.5rem);
+  margin-top: 2rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+} */
+
+/*=========Scroll Down========*/
+
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom:5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+
+/*=======Media Queries for Medium devices========*/
+
+@media screen and (max-width: 1024px) {
+  header {
+    /* height: 68vh; */
+    height: auto;
+  }
+}
+
+/*=======Media Queries for Medium devices========*/
+
+@media screen and (max-width: 600px) {
+  header {
+    /* height: 100vh; */
+    height: auto;
+  }
+
+  .header_socials,
+    .scroll_down {
+      display: none;
+    }
+}
+
